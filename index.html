@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineGrad</title>
 
-    <title>MineGrad — Город, в котором начинаются новые жизни</title>
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <div class="container header-content">
+        <header class="header">
+            <div class="container header-content">
 
-            <a href="#" class="logo">
-                <span>MINE</span>GRAD
-            </a>
+                <a href="index.html" class="logo">
+                     MINE<span>GRAD</span>
+                </a>
 
-            <nav class="navigation">
-                <a href="#about">О городе</a>
-                <a href="#news">Новости</a>
-                <a href="#features">Возможности</a>
-            </nav>
+                <nav class="navigation">
+                    <a href="index.html" class="active">Главная</a>
+                    <a href="pages/news/index.html">Новости</a>
+                    <a href="pages/factions/index.html">Фракции</a>
+                    <a href="pages/jobs/index.html">Работы</a>
+                </nav>
 
-            <a href="#" class="login-button">
-                Войти
-            </a>
+                <a href="#" class="login-button">
+                    Войти
+                </a>
 
-        </div>
-    </header>
+            </div>
+        </header>
 
 
     <main>
@@ -38,7 +38,15 @@
 
         <section class="hero">
 
-            <div class="hero-background"></div>
+            <div class="hero-background">
+
+                <video autoplay muted loop playsinline>
+                    <source src="assets/minegrad-city.mp4" type="video/mp4">
+                </video>
+
+                <div class="hero-overlay"></div>
+
+            </div>
 
             <div class="container hero-content">
 
@@ -175,7 +183,7 @@
                         <h2>Последние новости</h2>
                     </div>
 
-                    <a href="#" class="all-news">
+                    <a href="pages/news/index.html" class="all-news">
                         Все новости →
                     </a>
 
